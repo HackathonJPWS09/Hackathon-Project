@@ -2,3 +2,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.headline{
+    display: flex;
+    justify-content: center;
+}
+
+.headline-text{
+    width: 650px;
+    display: flex;
+    margin: auto;
+}
