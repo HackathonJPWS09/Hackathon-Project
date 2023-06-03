@@ -33,3 +33,13 @@ nav .nav-right .end {
     width: 15px;
     height: 15px;
 }
+.headline{
+    display: flex;
+    justify-content: center;
+}
+
+.headline-text{
+    width: 650px;
+    display: flex;
+    margin: auto;
+}
