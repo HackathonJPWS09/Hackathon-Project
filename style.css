@@ -1,15 +1,23 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+header{
+    font-family: 'Raleway', sans-serif;
+}
+.headline {
+  display: flex;
+  justify-content: center;
 }
 
-.headline{
-    display: flex;
-    justify-content: center;
+.topProduct {
+  margin-left: 20px;
 }
 
-.headline-text{
-    width: 650px;
-    display: flex;
-    margin: auto;
+.headline-text {
+  width: 650px;
+  display: flex;
+  margin: auto;
+  text-align: center;
 }
+
