@@ -6,6 +6,10 @@ body {
     padding: 0;
 }
 
+.logo {
+    margin: 0px !important;
+}
+
 header {
     font-family: "Raleway", sans-serif;
 }
@@ -562,4 +566,55 @@ nav {
 .container-randomIdea {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #000;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: white;
+    width: 1200px;
+    /*padding: 20px 0;*/
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    border-bottom: 1px solid darkgrey;
+    left: 0;
+    right: 0;
+    background: #fcfcfc   ;
+    height: auto;
+    font-family: "Open Sans";
+    margin-bottom: 50px;
+    margin-left: 12%;
+    color: #000;
+}
+
+.btnSLC{
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid lightgrey;
+} 
+
+.imgLinkedin{
+    font-size: 1.1rem;
 }
